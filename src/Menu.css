@@ -1,0 +1,35 @@
+#slideMenu{
+	width:100vw;
+	height:100vh;
+	background-color: #0d0d0d;
+	position:fixed;
+	top:0;
+	left:0;
+	transition: transform .3s cubic-bezier(0, .52, 0, 1);
+	overflow:scroll;
+	z-index:1000;
+}
+#slideMenu.hide{
+	transform:translate3d(-100vw,0,0);
+}
+#slideMenu.show{
+	transform: translate3d(0vw,0,0);
+	overflow:hidden;
+}
+#slideMenu h1 a{
+	width:301px;
+	height:133px;
+	opacity:0.5;
+	font-family:Anton;
+	fon-size:140px;
+	font-weight:normal;
+	font-stretch:normal;
+	line-height:0.95;
+	letter-spacing:normal;
+	text-align:left;
+	color:#ffffff;
+	text-decoration:none;
+}
+#slideMenu h1 a:hover {
+	opacity: 1;
+}

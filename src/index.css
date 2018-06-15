@@ -1,0 +1,27 @@
+*{
+	padding:0;
+	margin:0;
+}
+#root .Headbar{
+	width:100%;
+	height:44px;
+	background-color:#000000;
+	opacity:0.7;
+	margin:0;	
+}
+#root .Headbar .ABHISHEK-JASSAL {
+  width: 170px;
+  height: 19px;
+  padding-top: 12.5px;
+  padding-left:100px;
+  float:left;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color:#ffffff;
+}
